@@ -1,0 +1,279 @@
+/*Limpar fomrataçõs padrão */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  background: linear-gradient(135deg, #1a3c3a, #4caf50);
+  background-image: url('https://s2-epocanegocios.glbimg.com/4job22v_pviwkxrmD7bEz-G684k=/0x0:1251x581/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e536e40f1baf4c1a8bf1ed12d20577fd/internal_photos/bs/2023/B/A/4p2BXmSFmkQqRmuZCC0w/gta6.jpg'); /* Adicione uma imagem de textura */
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+}
+
+/*Layout */
+#area-cabecalho {
+  padding: 15px;
+  text-align: center;
+  background-color:#3A7D44;/*fallback*/
+  background-image: url("bank-of-america-acredita-que-grand-theft-auto-vi-sera-adiado-100985.jpg");
+  background-size: cover; /* Isso ajusta a imagem ao tamanho da área */
+}
+
+#area-logo, #area-menu {
+  padding: 10px;
+  
+}
+#area-menu {
+  
+  box-shadow: #121211 10px 10px 10px; 
+  text-decoration: none;
+  color: #333;
+  padding: 15px; /* Espaço interno do link */
+  display: block; /* Isso garante que o link ocupe a largura completa do item */
+  background-color: #3A7D44; /* Cor de fundo para o link */
+  border-radius: 5px; /* Bordas arredondadas para o link */
+
+}
+
+#area-principal{
+  width: 920px;
+  margin: 0 auto; /* auto para margmen automática */
+  
+  
+}
+
+#area-postagens, #area-lateral{
+  background: cadetblue;
+  box-shadow: #121211 10px 10px 10px;
+}
+
+#area-postagens{
+  width: 660px;
+  float: left;
+}
+
+#area-lateral{
+  #area-lateral {
+    width:100%;
+    float: right;
+    background-color: #121211;
+    color: #FF9AA2;
+    display: block; /* Use block para garantir que o menu ocupe o espaço necessário */
+    
+    margin-top: 20px;
+  
+    box-shadow: #121211 10px 10px 10px;
+    clear: both; /* Garante que o menu lateral não sobreponha outros elementos */
+
+  }
+  
+ 
+
+}
+
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  box-shadow: #0c0c0c 10px 10px 10px;
+
+}
+
+#rodape {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #CCC;
+  box-shadow: #0c0c0c 10px 10px 10px;
+}
+
+#leia{
+  color: orange;
+  padding: 0px;
+    }
+
+#banner-gta{
+  width: 100%;
+}
+
+
+/*Formatação do menu */
+
+a{
+  text-decoration: none;
+  color: #444444; 
+
+  
+ 
+
+
+}
+a:link, a:visited{
+  color: #FFF;
+  padding: 8px 12px;
+  
+ 
+
+}
+
+a:hover{
+  color: #b5cd3d;
+  background:#52a45f;
+
+ 
+
+}
+
+/*Formatação em geral */
+h1{
+  color: #f80c0c;
+  font-size: 2.5em;
+  }
+
+.branco {
+  color: white;
+}
+
+h3{
+  color: #fff5f5;
+  text-shadow: 0px 0px 10px cyan,
+               0px 0px 20px cyan,
+               0px 0px 40px cyan,
+               0px 0px 80px cyan;
+  font-family: "Bebas Neue", "Special Elite", sans-serif;
+  padding-left: 80%;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+.foto-principal{
+  filter: drop-shadow(0px 0px 12px grey);
+}
+.links{
+  margin: 10px 10px 10px 10px;
+}
+.gta-button {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Texto branco */
+  font-family: 'Arial Black', sans-serif; /* Fonte grossa e impactante */
+  font-size: 20px;
+  padding: 15px 30px; /* Tamanho do botão */
+  border: 2px solid #fff; /* Borda branca */
+  border-radius: 5px; /* Borda suavemente arredondada */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+  text-transform: uppercase; /* Texto em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  cursor: pointer; /* Mudar cursor ao passar o mouse */
+  transition: all 0.3s ease; /* Suavizar as transições */
+}
+
+.gta-button:hover {
+  background-color: #555; /* Alterar a cor de fundo ao passar o mouse */
+  color: #ffcc00; /* Texto dourado ao passar o mouse */
+  border-color: #ffcc00; /* Borda dourada ao passar o mouse */
+  transform: scale(1.1); /* Aumenta ligeiramente o botão */
+}
+.contatos{
+  color: #0c0c0c;
+}
+
+.titulodehonra{
+  
+    font-family: 'Cinzel', serif; /* Fonte clássica para dar um toque de elegância */
+    font-size: 3em; /* Tamanho grande para destacar o título */
+    color: #ffcc00; /* Cor dourada para destacar o título */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Espaçamento externo */
+    
+    /* Adicionando um efeito de brilho dourado */
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.8),
+                 0 0 20px rgba(255, 204, 0, 0.6),
+                 0 0 30px rgba(255, 204, 0, 0.4),
+                 0 0 40px rgba(255, 204, 0, 0.2);
+  
+    /* Bordas elegantes */
+    border: 2px solid #ffcc00; /* Borda dourada */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra externa para profundidade */
+    
+    background-color: #1a1a1a; /* Fundo escuro para contraste */
+    background-image: linear-gradient(135deg, #1a1a1a 30%, #333 70%); /* Gradiente suave no fundo */
+    
+    /* Efeito de transição suave ao passar o mouse */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .honor-title:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+    box-shadow: 0 0 30px rgba(255, 204, 0, 0.8), 0 0 50px rgba(255, 204, 0, 0.6); /* Sombra dourada intensa */
+  
+  
+}
+
+.name-highlight {
+  font-family: 'Arial Black', sans-serif; /* Fonte grossa para destaque */
+  font-size: 2.5em; /* Tamanho grande para os nomes */
+  color: #ffcc00; /* Cor dourada para os nomes */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px; /* Espaçamento interno */
+  margin: 15px 0; /* Espaçamento externo */
+  
+  /* Efeito de brilho */
+  text-shadow: 0 0 5px rgba(255, 204, 0, 0.8),
+               0 0 10px rgba(255, 204, 0, 0.6),
+               0 0 15px rgba(255, 204, 0, 0.4);
+
+  /* Bordas elegantes */
+  border: 2px solid #ffcc00; /* Borda dourada */
+  border-radius: 5px; /* Bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra externa para profundidade */
+  
+  background-color: #1a1a1a; /* Fundo escuro para contraste */
+  background-image: linear-gradient(135deg, #1a1a1a 30%, #333 70%); /* Gradiente suave no fundo */
+  
+  /* Efeito de transição suave ao passar o mouse */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.name-highlight:hover {
+  transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.8), 0 0 30px rgba(255, 204, 0, 0.6); /* Sombra dourada intensa */
+}
+
+.email-highlight {
+  font-family: 'Courier New', Courier, monospace; /* Fonte monoespaçada para um estilo clássico */
+  font-size: 1.8em; /* Tamanho grande para destaque */
+  color: #4caf50; /* Cor verde para o texto do e-mail */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px; /* Espaçamento interno */
+  margin: 15px 0; /* Espaçamento externo */
+
+  /* Efeito de brilho */
+  text-shadow: 0 0 5px rgba(76, 175, 80, 0.6),
+               0 0 10px rgba(76, 175, 80, 0.4);
+
+  /* Bordas elegantes */
+  border: 2px solid #4caf50; /* Borda verde */
+  border-radius: 5px; /* Bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra externa para profundidade */
+
+  background-color: #ffffff; /* Fundo branco para contraste */
+  background-image: linear-gradient(135deg, #ffffff 30%, #e8f5e9 70%); /* Gradiente suave no fundo */
+
+  /* Efeito de transição suave ao passar o mouse */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.email-highlight:hover {
+  transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.8), 0 0 30px rgba(76, 175, 80, 0.6); /* Sombra verde intensa */
+}
+
